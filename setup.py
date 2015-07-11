@@ -23,6 +23,7 @@ if __name__ == '__main__':
         description='enum/enum34 compatibility package',
         long_description=readme,
         author='Jakub Stasiak',
+        authoer_email='jakub@stasiak.at',
         url='https://github.com/jstasiak/enum-compat',
         license='MIT',
         zip_safe=False,
