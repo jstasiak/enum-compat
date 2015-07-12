@@ -19,11 +19,11 @@ Python older than 3.4. On Python 3.4+ it's a no-op.
 if __name__ == '__main__':
     setup(
         name='enum-compat',
-        version='0.0.1',
+        version='0.0.2',
         description='enum/enum34 compatibility package',
         long_description=readme,
         author='Jakub Stasiak',
-        authoer_email='jakub@stasiak.at',
+        author_email='jakub@stasiak.at',
         url='https://github.com/jstasiak/enum-compat',
         license='MIT',
         zip_safe=False,
