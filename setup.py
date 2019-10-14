@@ -5,8 +5,6 @@ import sys
 
 from setuptools import setup
 
-has_enum = sys.version_info >= (3, 4)
-
 readme = """
 enum-compat
 ===========
@@ -42,5 +40,5 @@ if __name__ == '__main__':
         keywords=[
             'enum', 'compatibility', 'enum34',
         ],
-        install_requires=[] if has_enum else ['enum34'],
+        install_requires=['enum34; python_version < "3.4"'],
     )
