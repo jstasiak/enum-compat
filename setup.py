@@ -17,7 +17,7 @@ Python older than 3.4. On Python 3.4+ it's a no-op.
 if __name__ == '__main__':
     setup(
         name='enum-compat',
-        version='0.0.2',
+        version='0.0.3',
         description='enum/enum34 compatibility package',
         long_description=readme,
         author='Jakub Stasiak',
